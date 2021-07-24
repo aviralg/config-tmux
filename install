@@ -1,0 +1,8 @@
+#!/usr/bin/env fish
+
+switch (uname)
+    case Linux
+        sudo apt-get install tmux
+    case Darwin
+        brew install tmux
+end
